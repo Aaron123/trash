@@ -9,6 +9,8 @@
 收站中清除,所以建议删除大文件(相对于回收站最大容量而言)直接用 
 命令/bin/rm 而不要用 rm.
 * 二. 使用方法:
+** git clone https://github.com/Aaron123/trash.git
+** cp trash/trash $HOME/bin/
 ** 1. 将trash文件放到 $HOME/bin/
 ** 2. 在$HOME/.bashrc 文件中加入alias rm=”$HOME/bin/trash”, 重新登陆终端或执行bash命令。
 ** 3. 执行命令rm -e 配置回收站的最大容量,单位K
